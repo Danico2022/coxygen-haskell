@@ -1,0 +1,8 @@
+-- HC1 Task2
+-- Définition de la fonction
+circleArea r = pi * r^2
+
+-- Programme principal pour tester la fonction
+main :: IO ()
+main = do
+   print( circleArea 2)
